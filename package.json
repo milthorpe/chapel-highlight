@@ -1,0 +1,25 @@
+{
+  "name": "chapel-highlight",
+  "displayName": "Chapel Syntax Highlighting",
+  "description": "Syntax highlighting for the Chapel language, using Textmate files from https://github.com/chapel-lang/chapel-tmbundle.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "chapel",
+      "aliases": ["Chapel", "chapel"],
+      "extensions": [".chpl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "chapel",
+      "scopeName": "source.chapel",
+      "path": "./syntaxes/chapel.tmLanguage"
+    }]
+  }
+}
