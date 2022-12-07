@@ -3,6 +3,7 @@
   "displayName": "Chapel Syntax Highlighting",
   "description": "Syntax highlighting for the Chapel language, using Textmate files from https://github.com/chapel-lang/chapel-tmbundle.",
   "version": "0.0.1",
+  "publisher": "milthorpe",
   "engines": {
     "vscode": "^1.73.0"
   },
