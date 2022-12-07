@@ -14,8 +14,6 @@ Doesn't correctly handle uninterpreted string or byte literals (also a limitatio
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 0.0.1
 
 Initial release based on chapel-tmbundle Git commit f2a1430
